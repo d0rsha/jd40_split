@@ -26,10 +26,10 @@ PRODUCT             # Product ID
 ```
 Build && Flash the left side 
 ```
-make jd40_split/left:d0rsha:dfu-split-left
+make handwired/jd40_split/left:d0rsha:dfu-split-left
 ```
 Unlug left half and conntect right half. Edit your portmapping for the right side in `right/config.h` && update the above mentioned constants to match the right side. 
 ```
-make jd40_split/right:d0rsha:dfu-split-right
+make handwired/jd40_split/right:d0rsha:dfu-split-right
 ```
 Enjoy! 
