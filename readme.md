@@ -13,7 +13,7 @@ git clone https://github.com/d0rsha/jd40_split
 # Download qmk firmware 
 git clone https://github.com/qmk/qmk_firmware
 # Copy config && cd 
-cp jd40_split/ qmk_firmware/keyboards/
+cp jd40_split/ qmk_firmware/keyboards/handwired
 rm -rf jd40_split
 cd qmk_firmware
 ```
