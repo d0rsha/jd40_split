@@ -8,11 +8,13 @@ Supported controller (tested) Atmega32u4 chip on Elite-c board
 ## Build && flashing 
 ```py
 # Download jd40_split  
+mkdir -p tempZXCQWE && cd tempZXCQWE
 git clone https://github.com/d0rsha/jd40_split
-cd jd40_split 
 # Download qmk firmware 
 git clone https://github.com/qmk/qmk_firmware
 # Copy config && cd 
+cp jd40_split/ qmk_firmware/keyboards/
+rm -rf jd40_split
 cd qmk_firmware
 ```
 Connect left half. Edit your portmapping for the left side in `left/config.h` update the defined constants
