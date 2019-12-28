@@ -44,3 +44,13 @@ Wired colum to rows.
 
 ------
 ![Profile](pictures/profile.jpg)
+
+
+------
+### Links
+[Good guide 1](http://www.masterzen.fr/2018/12/22/handwired-keyboard-build-log-part-2/)  
+[Good guide 2](https://medium.com/@sachee/building-my-first-keyboard-and-you-can-too-512c0f8a4c5f)  
+[QMK-doc on split keyboard](https://beta.docs.qmk.fm/features/feature_split_keyboard)  
+Code is based on qmk_firmware/lets_split, https://github.com/qmk/qmk_firmware/tree/master/keyboards/lets_split  
+[QMK-doc on keycodes](https://docs.qmk.fm/#/keycodes_basic)  
+[QMK-doc HW config](https://docs.qmk.fm/#/hardware_avr)  
