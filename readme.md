@@ -1,5 +1,6 @@
 JD40 Split
 ======
+![Overhead](pictures/overhead.jpg)
 
 Supported controller (tested) Atmega32u4 chip on Elite-c board
 
@@ -34,3 +35,12 @@ Unlug left half and conntect right half. Edit your portmapping for the right sid
 > make handwired/jd40_split/`right`:d0rsha:dfu-split-`right`
 
 Enjoy! 
+
+
+## Wiring scheme 
+
+![Scheme](pictures/scheme.jpg)  
+Wired colum to rows.  
+
+------
+![Profile](pictures/profile.jpg)
